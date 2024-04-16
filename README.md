@@ -1,16 +1,14 @@
-# google_ml_kit
+# Google ML Kit with Flutter
+Flutter ile Google ML Kit'in vision API'larını kullanarak hazırladığım örnekleri bu repo'da paylaşıyorum. Ayrıca, bu örnekleri detaylı bir şekilde anlattığım ve seri halinde paylaşacağım makaleleri Medium hesabımda yayınlıyorum. 
 
-A new Flutter project.
+Bu seri ve diğer yazılarıma göz atmak isterseniz [medium hesabıma](https://medium.com/@edanurhmrc) göz atabilirsiniz.. 
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+Yazının ilk serisinde Text Recognition (Metin Tanımlama) ve Digital Ink Recognition (Dijital Mürekkep Tanımlama) ele aldım. 
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<div style="display: flex; flex-direction: row;">
+  <img src="https://github.com/edanurhmrc/google_ml_kit_with_flutter/assets/99151734/50db8f8e-dcc8-4cb8-83e5-af7321bf1d58" alt="AppGörsel3" style="width: 30%;">
+  <img src="https://github.com/edanurhmrc/google_ml_kit_with_flutter/assets/99151734/e7ec1aa3-b562-4d4c-b1f1-de92ca814b8b" alt="AppGörsel" style="width: 30%; margin-right: 5px;">
+  <img src="https://github.com/edanurhmrc/google_ml_kit_with_flutter/assets/99151734/f1111eac-6846-40c1-a135-c6351f5895e4" alt="AppGörsel2" style="width: 30%; margin-right: 5px;">
+</div>
