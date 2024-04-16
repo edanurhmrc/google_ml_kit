@@ -8,7 +8,10 @@ Yazının ilk serisinde Text Recognition (Metin Tanımlama) ve Digital Ink Recog
 
 
 <div style="display: flex; flex-direction: row;">
-  <img src="https://github.com/edanurhmrc/google_ml_kit_with_flutter/assets/99151734/50db8f8e-dcc8-4cb8-83e5-af7321bf1d58" alt="AppGörsel3" style="width: 30%;">
-  <img src="https://github.com/edanurhmrc/google_ml_kit_with_flutter/assets/99151734/e7ec1aa3-b562-4d4c-b1f1-de92ca814b8b" alt="AppGörsel" style="width: 30%; margin-right: 5px;">
-  <img src="https://github.com/edanurhmrc/google_ml_kit_with_flutter/assets/99151734/f1111eac-6846-40c1-a135-c6351f5895e4" alt="AppGörsel2" style="width: 30%; margin-right: 5px;">
+  <img src="https://github.com/edanurhmrc/google_ml_kit/assets/99151734/a8e61698-8c1e-4a83-b1f7-eaf964e0c033" alt="AppGörsel2" style="width: 30%; margin-right: 5px;">
+  <img src="https://github.com/edanurhmrc/google_ml_kit/assets/99151734/b90ea18a-a2dd-4502-9c28-bdb72dedd63b" alt="AppGörsel" style="width: 30%; margin-right: 5px;">
+  <img src="https://github.com/edanurhmrc/google_ml_kit/assets/99151734/a8d463fc-437f-4aa1-8765-a29a06d68fac" alt="AppGörsel3" style="width: 30%;">
+
+  
+ 
 </div>
