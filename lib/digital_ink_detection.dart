@@ -2,9 +2,8 @@
 
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:google_mlkit_digital_ink_recognition/google_mlkit_digital_ink_recognition.dart'
-    as ink_recog;
-import 'package:google_mlkit_digital_ink_recognition/google_mlkit_digital_ink_recognition.dart';
+import 'package:google_ml_kit/google_ml_kit.dart' as ink_recog;
+import 'package:google_ml_kit/google_ml_kit.dart';
 
 class DigitalInkRecognition extends StatefulWidget {
   const DigitalInkRecognition({Key? key}) : super(key: key);
@@ -177,7 +176,7 @@ class _DigitalInkRecognitionState extends State<DigitalInkRecognition> {
       // Model indirilmiş ise tanıma işlemini yap ve ekrana yazdır
       bool isDownloaded = await isModelDowloaded();
       if (isDownloaded) {
-        final candidates = await _recognizer.recognize(ink); 
+        final candidates = await _recognizer.recognize(ink);
         _recognizedText = '';
         for (final candidate in candidates) {
           _recognizedText += '\n${candidate.text}';
@@ -201,7 +200,8 @@ class _DigitalInkRecognitionState extends State<DigitalInkRecognition> {
   // Ekrana çizilen noktaları göster
   Widget strokes(BuildContext context) {
     return GestureDetector(
-      onPanStart: (details) { //Ekrana dokunulduğunda yeni Stroke oluştur
+      onPanStart: (details) {
+        //Ekrana dokunulduğunda yeni Stroke oluştur
         ink.strokes.add(Stroke()); // ink.strokes listesine yeni Stroke ekle
       },
       onPanUpdate: (details) => _updatePoints(details,

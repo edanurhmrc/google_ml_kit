@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_ml_kit_project/digital_ink_detection.dart';
+import 'package:google_ml_kit_project/selfie_segmentation.dart';
 import 'package:google_ml_kit_project/text_recognition.dart';
 
 class Homepage extends StatefulWidget {
@@ -51,6 +52,22 @@ class _HomepageState extends State<Homepage> {
                 Navigator.of(context).push(
                   MaterialPageRoute(
                     builder: (context) => const DigitalInkRecognition(),
+                  ),
+                );
+              },
+            ),
+            Divider(
+              color: Colors.grey[300],
+            ),
+            ListTile(
+              leading: const Icon(Icons.photo_camera_back_outlined),
+              title: const Text('Selfie Segmentation'),
+              textColor: Colors.blueAccent,
+              iconColor: Colors.blueAccent,
+              onTap: () {
+                Navigator.of(context).push(
+                  MaterialPageRoute(
+                    builder: (context) => const SelfieSeg(),
                   ),
                 );
               },

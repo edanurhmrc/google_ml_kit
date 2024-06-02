@@ -64,4 +64,8 @@ flutter {
     source '../..'
 }
 
-dependencies {}
+dependencies {
+    implementation 'com.google.mlkit:segmentation-selfie:16.0.0-beta3'
+    implementation 'com.google.firebase:firebase-ml-vision:24.0.3'
+    implementation 'org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version'
+}
